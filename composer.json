@@ -1,0 +1,23 @@
+{
+  "name": "luanpcweb/simple-db-estudo",
+  "description": "Um simples banco de dados para proprósitos didáticos",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luan P. Coelho",
+      "email": "luan@byteslivres.com.br"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "satooshi/php-coveralls": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Luanpcweb\\SimpleDb\\": "src"
+    }
+  }
+}

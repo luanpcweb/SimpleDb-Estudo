@@ -1,6 +1,6 @@
-.idea
-vendor
-log
+.idea/
+vendor/
+log/
 coverage
 composer.lock
 tests/db_config.php

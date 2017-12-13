@@ -39,9 +39,9 @@ class ComposerStaticInit4827ba7162ca88beaeee32f240cfe860
             'Psr\\Http\\Message\\' => 17,
             'PhpCoveralls\\' => 13,
         ),
-        'K' => 
+        'L' => 
         array (
-            'Koine\\SimpleDb\\' => 15,
+            'Luanpcweb\\SimpleDb\\' => 19,
         ),
         'G' => 
         array (
@@ -107,7 +107,7 @@ class ComposerStaticInit4827ba7162ca88beaeee32f240cfe860
         array (
             0 => __DIR__ . '/..' . '/satooshi/php-coveralls/src',
         ),
-        'Koine\\SimpleDb\\' => 
+        'Luanpcweb\\SimpleDb\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

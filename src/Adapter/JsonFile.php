@@ -3,7 +3,7 @@
 namespace Luanpcweb\SimpleDb\Adapter;
 
 
-class JsonFile
+class JsonFile implements AdapterInterface
 {
     /**
      * @var string
@@ -15,6 +15,10 @@ class JsonFile
         $this->file = $file;
     }
 
+    /**
+     * {@inheritdoc}
+     * @throws RuntimeException
+     */
     public function read()
     {
         $contents = @file_get_contents($this->file);
@@ -33,5 +37,20 @@ class JsonFile
             );
         }
         return $data;
+    }
+
+    /**
+     * {@inheritdoc}
+     * @throws RuntimeException
+     */
+    public function write(array $data)
+    {
+        $result = @file_put_contents($this->file, json_encode($data));
+
+        if ($result === false){
+            throw new \RuntimeException(
+                sprintf('File "%s" could not be written', $this->file)
+            );
+        }
     }
 }

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc9c0ae-8a5b-44f2-b87c-29f89561219c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/JsonFile.php" afterPath="$PROJECT_DIR$/src/Adapter/JsonFile.php" />
-      <change beforePath="$PROJECT_DIR$/tests/Adapter/JsonFileTest.php" afterPath="$PROJECT_DIR$/tests/Adapter/JsonFileTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,6 +82,7 @@
         <option value="$PROJECT_DIR$/tests/Adapter/JsonFileTest.php" />
         <option value="$PROJECT_DIR$/src/Adapter/JsonFile.php" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -140,8 +139,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="862" />
-    <option name="y" value="217" />
+    <option name="x" value="599" />
+    <option name="y" value="222" />
     <option name="width" value="996" />
     <option name="height" value="871" />
   </component>
@@ -221,15 +220,15 @@
       <updated>1513108947847</updated>
       <workItem from="1513108949050" duration="4201000" />
       <workItem from="1513166323161" duration="52000" />
-      <workItem from="1513173608704" duration="9363000" />
+      <workItem from="1513173608704" duration="9727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13616000" />
+    <option name="totallyTimeSpent" value="13980000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="862" y="217" width="996" height="871" extended-state="0" />
+    <frame x="599" y="222" width="996" height="871" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2630522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -389,6 +388,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>

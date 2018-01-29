@@ -82,4 +82,19 @@ class JsonFileTest extends TestCase
         $this->adapter = new JsonFile('/posts.json');
         $this->adapter->write(array());
     }
+
+    /**
+     * @test
+    */
+   public function readReturnsEmptyArrayWhenFileIsEmpty()
+   {
+        @unlink('/tmp/posts.json');
+        exec('touch /tmp/posts.json');
+
+        $this->adapter =  new JsonFile('/tmp/posts.json');
+        $data = $this->adapter->read();
+
+        $this->assertEquals(array(), $data);
+   }
+
 }

@@ -29,6 +29,10 @@ class JsonFile implements AdapterInterface
             );
         }
 
+        if ($contents === '') {
+            return array();
+        }
+
         $data = json_decode($contents, true);
 
         if (!is_array($data)){
